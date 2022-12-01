@@ -24,8 +24,8 @@ const findAverageNumber = (arr) => {
   return result;
 };
 
-const r1 = findAverageNumber([1, 3, 2, 4, 5]);
-const r2 = findAverageNumber([3, 3, 3, 3, 3, 3]);
-const r3 = findAverageNumber([3, 1, 5]);
+const result1 = findAverageNumber([1, 3, 2, 4, 5]);
+const result2 = findAverageNumber([3, 3, 3, 3, 3, 3]);
+const result3 = findAverageNumber([3, 1, 5]);
 
-console.log({ r1, r2, r3 });
+console.log({ result1, result2, result3 });

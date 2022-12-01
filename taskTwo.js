@@ -29,7 +29,7 @@ const sendmail = (arr) => {
   return selectedEmail;
 };
 
-const r1 = sendmail([
+const result1 = sendmail([
   "ghi@hotmail.com",
   "def@yahoo.com",
   "ghi@gmail.com",
@@ -44,4 +44,4 @@ const r1 = sendmail([
   "def@gmail.com",
 ]);
 
-console.log(r1);
+console.log(result1);
